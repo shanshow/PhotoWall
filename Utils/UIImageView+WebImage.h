@@ -1,6 +1,6 @@
 //
 //  UIImageView+WebImage.h
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 4/9/17.
 //  Copyright © 2017 Picowork. All rights reserved.

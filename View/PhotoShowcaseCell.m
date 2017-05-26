@@ -1,6 +1,6 @@
 //
 //  PhotoShowcaseCell.m
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 4/30/17.
 //  Copyright © 2017 Picowork. All rights reserved.

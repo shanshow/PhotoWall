@@ -1,6 +1,6 @@
 //
 //  PhotoGridSectionHeader.m
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 4/29/17.
 //  Copyright © 2017 Picowork. All rights reserved.
