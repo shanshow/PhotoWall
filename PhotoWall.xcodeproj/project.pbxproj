@@ -173,6 +173,7 @@
 		65E073861ED866B0000DEE6A /* KeyChainSecuredAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainSecuredAuthenticator.h; path = RestClient/KeyChainSecuredAuthenticator.h; sourceTree = SOURCE_ROOT; };
 		65E073871ED866B0000DEE6A /* KeyChainSecuredAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChainSecuredAuthenticator.m; path = RestClient/KeyChainSecuredAuthenticator.m; sourceTree = SOURCE_ROOT; };
 		65E073881ED866B0000DEE6A /* RestRequestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequestTests.h; path = RestClient/RestRequestTests.h; sourceTree = SOURCE_ROOT; };
+		65E0738A1ED869C4000DEE6A /* PhotoWall.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = PhotoWall.entitlements; path = PhotoWall/PhotoWall.entitlements; sourceTree = "<group>"; };
 		6B62AEAFCF635522E3FD695C /* Pods-PhotoWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall/Pods-PhotoWall.debug.xcconfig"; sourceTree = "<group>"; };
 		77D7CD83F4177C82A481E954 /* Pods-PhotoWall-PhotoWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall-PhotoWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall-PhotoWallTests/Pods-PhotoWall-PhotoWallTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D179AC33B272886C9CCD324 /* Pods_PhotoWall_PhotoWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoWall_PhotoWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +225,7 @@
 		6539F56D1EC557040096E016 = {
 			isa = PBXGroup;
 			children = (
+				65E0738A1ED869C4000DEE6A /* PhotoWall.entitlements */,
 				65E073661ED86541000DEE6A /* Utils */,
 				65E073201ED83C2D000DEE6A /* Mapping1-2.xcmappingmodel */,
 				65E0731B1ED8391B000DEE6A /* CoreData */,
