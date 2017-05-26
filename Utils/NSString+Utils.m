@@ -1,6 +1,6 @@
 //
 //  NSString+Utils.m
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 3/27/17.
 //  Copyright © 2017 Picowork. All rights reserved.

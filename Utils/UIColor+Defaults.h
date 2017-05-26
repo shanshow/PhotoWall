@@ -1,6 +1,6 @@
 //
 //  UIColor+Defaults.h
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 4/11/17.
 //  Copyright © 2017 Picowork. All rights reserved.

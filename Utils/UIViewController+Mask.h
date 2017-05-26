@@ -1,6 +1,6 @@
 //
 //  UIViewController+Mask.h
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 4/23/17.
 //  Copyright © 2017 Picowork. All rights reserved.

@@ -64,6 +64,7 @@
 		65E073831ED865F7000DEE6A /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E0737F1ED865F7000DEE6A /* PhotoManager.m */; };
 		65E073841ED865F7000DEE6A /* PhotoMapRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E073811ED865F7000DEE6A /* PhotoMapRegion.m */; };
 		65E073891ED866B0000DEE6A /* KeyChainSecuredAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E073871ED866B0000DEE6A /* KeyChainSecuredAuthenticator.m */; };
+		65E0738D1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E0738C1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.m */; };
 		FF0571E6F9544F7ED6D82A2E /* Pods_PhotoWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15C7C75A89E98C4E0B0BA5F /* Pods_PhotoWall.framework */; };
 /* End PBXBuildFile section */
 
@@ -173,6 +174,8 @@
 		65E073861ED866B0000DEE6A /* KeyChainSecuredAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainSecuredAuthenticator.h; path = RestClient/KeyChainSecuredAuthenticator.h; sourceTree = SOURCE_ROOT; };
 		65E073871ED866B0000DEE6A /* KeyChainSecuredAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChainSecuredAuthenticator.m; path = RestClient/KeyChainSecuredAuthenticator.m; sourceTree = SOURCE_ROOT; };
 		65E073881ED866B0000DEE6A /* RestRequestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequestTests.h; path = RestClient/RestRequestTests.h; sourceTree = SOURCE_ROOT; };
+		65E0738B1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationAwarePhotoUploadTask.h; path = Model/LocationAwarePhotoUploadTask.h; sourceTree = "<group>"; };
+		65E0738C1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationAwarePhotoUploadTask.m; path = Model/LocationAwarePhotoUploadTask.m; sourceTree = "<group>"; };
 		6B62AEAFCF635522E3FD695C /* Pods-PhotoWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall/Pods-PhotoWall.debug.xcconfig"; sourceTree = "<group>"; };
 		77D7CD83F4177C82A481E954 /* Pods-PhotoWall-PhotoWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWall-PhotoWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoWall-PhotoWallTests/Pods-PhotoWall-PhotoWallTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D179AC33B272886C9CCD324 /* Pods_PhotoWall_PhotoWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoWall_PhotoWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,7 +227,6 @@
 		6539F56D1EC557040096E016 = {
 			isa = PBXGroup;
 			children = (
-				65E073661ED86541000DEE6A /* Utils */,
 				65E073201ED83C2D000DEE6A /* Mapping1-2.xcmappingmodel */,
 				65E0731B1ED8391B000DEE6A /* CoreData */,
 				65E073111EC5B38A000DEE6A /* Media.xcassets */,
@@ -248,6 +250,7 @@
 		6539F5781EC557040096E016 /* PhotoWall */ = {
 			isa = PBXGroup;
 			children = (
+				65E073661ED86541000DEE6A /* Utils */,
 				65E072FA1EC59919000DEE6A /* RestClient */,
 				65E072F91EC59913000DEE6A /* View */,
 				65E072F71EC598B5000DEE6A /* Model */,
@@ -286,6 +289,8 @@
 		65E072F71EC598B5000DEE6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65E0738B1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.h */,
+				65E0738C1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.m */,
 				65E0737C1ED865F7000DEE6A /* Photo.h */,
 				65E0737D1ED865F7000DEE6A /* Photo.m */,
 				65E0737E1ED865F7000DEE6A /* PhotoManager.h */,
@@ -401,6 +406,7 @@
 				65E073741ED86565000DEE6A /* UIViewController+Mask.m */,
 			);
 			name = Utils;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -631,6 +637,7 @@
 				65E073591ED8607D000DEE6A /* PhotoShowcaseCell.m in Sources */,
 				6539F5871EC557040096E016 /* PhotoWall.xcdatamodeld in Sources */,
 				65E0731A1ED838DB000DEE6A /* User.m in Sources */,
+				65E0738D1ED86DFA000DEE6A /* LocationAwarePhotoUploadTask.m in Sources */,
 				65E0735E1ED8607D000DEE6A /* ProfileViewController.m in Sources */,
 				65E073491ED8607D000DEE6A /* AnnotationCallOutView.m in Sources */,
 				65E0734B1ED8607D000DEE6A /* FriendCell.m in Sources */,
