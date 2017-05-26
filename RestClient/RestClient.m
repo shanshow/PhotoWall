@@ -1,6 +1,6 @@
 //
 //  RestClient.m
-//  photowall
+//  PhotoWall
 //
 //  Created by Spirit on 3/25/17.
 //  Copyright © 2017 Picowork. All rights reserved.
