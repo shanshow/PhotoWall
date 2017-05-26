@@ -23,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"photowall"];
+    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"PhotoWall"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     KeyChainSecuredAuthenticator* authenticator = [KeyChainSecuredAuthenticator new];

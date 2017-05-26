@@ -9,7 +9,7 @@
 #import "PhotoManager.h"
 
 #import "RestClient.h"
-//#import "LocationAwarePhotoUploadTask.h"
+#import "LocationAwarePhotoUploadTask.h"
 
 #import "NSDate+Utils.h"
 
@@ -27,17 +27,17 @@
 	return self;
 }
 
-//#pragma mark - Public Methods
-//- (void)uploadPhoto:(NSData*)photoData withHandler:(PhotoHandler)handler {
-//	LocationAwarePhotoUploadTask* task = [[LocationAwarePhotoUploadTask alloc] initWithData:photoData];
-//	[_tasks addObject:task];
-//	[task uploadWithClient:_client andHandler:^(NSError* error, NSArray* photos) {
-//		[_tasks removeObject:task];
-//		if (handler != nil) {
-//			handler(error, photos);
-//		}
-//	}];
-//}
+#pragma mark - Public Methods
+- (void)uploadPhoto:(NSData*)photoData withHandler:(PhotoHandler)handler {
+	LocationAwarePhotoUploadTask* task = [[LocationAwarePhotoUploadTask alloc] initWithData:photoData];
+	[_tasks addObject:task];
+	[task uploadWithClient:_client andHandler:^(NSError* error, NSArray* photos) {
+		[_tasks removeObject:task];
+		if (handler != nil) {
+			handler(error, photos);
+		}
+	}];
+}
 
 - (void)loadPhotosAfter:(NSDate*)after before:(NSDate*)before ofUser:(NSString*)userId withHandler:(PhotoHandler)handler {
 	RestRequest* request = [_client path:@"/photos"];
